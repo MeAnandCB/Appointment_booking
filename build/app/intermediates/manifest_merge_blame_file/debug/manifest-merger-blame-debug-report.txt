@@ -1,0 +1,284 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.college"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="20"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         The INTERNET permission is required for development. Specifically,
+12         the Flutter tool needs it to communicate with the running application
+13         to allow setting breakpoints, to provide hot reload, etc.
+14    -->
+15    <uses-permission android:name="android.permission.INTERNET" />
+15-->C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\android\app\src\main\AndroidManifest.xml:2:1-63
+15-->C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\android\app\src\main\AndroidManifest.xml:2:18-60
+16    <uses-permission android:name="android.permission.CALL_PHONE" />
+16-->C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\android\app\src\main\AndroidManifest.xml:3:1-65
+16-->C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\android\app\src\main\AndroidManifest.xml:3:18-62
+17    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+17-->[:file_picker] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-80
+17-->[:file_picker] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-77
+18
+19    <queries>
+19-->[:file_picker] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-17:15
+20        <intent>
+20-->[:file_picker] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:18
+21            <action android:name="android.intent.action.GET_CONTENT" />
+21-->[:file_picker] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-72
+21-->[:file_picker] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:13:21-69
+22
+23            <data android:mimeType="*/*" />
+23-->[:file_picker] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-44
+23-->[:file_picker] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\file_picker\intermediates\merged_manifest\debug\AndroidManifest.xml:15:19-41
+24        </intent>
+25        <intent>
+25-->[androidx.media2:media2-session:1.2.1] C:\Users\anand\.gradle\caches\transforms-3\1c11fcd5d741b7583794ec56efdeaa69\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:25:9-27:18
+26            <action android:name="android.media.browse.MediaBrowserService" />
+26-->[androidx.media2:media2-session:1.2.1] C:\Users\anand\.gradle\caches\transforms-3\1c11fcd5d741b7583794ec56efdeaa69\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:13-79
+26-->[androidx.media2:media2-session:1.2.1] C:\Users\anand\.gradle\caches\transforms-3\1c11fcd5d741b7583794ec56efdeaa69\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:26:21-76
+27        </intent>
+28        <intent>
+28-->[androidx.media2:media2-session:1.2.1] C:\Users\anand\.gradle\caches\transforms-3\1c11fcd5d741b7583794ec56efdeaa69\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:28:9-30:18
+29            <action android:name="androidx.media2.session.MediaSessionService" />
+29-->[androidx.media2:media2-session:1.2.1] C:\Users\anand\.gradle\caches\transforms-3\1c11fcd5d741b7583794ec56efdeaa69\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:13-82
+29-->[androidx.media2:media2-session:1.2.1] C:\Users\anand\.gradle\caches\transforms-3\1c11fcd5d741b7583794ec56efdeaa69\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:29:21-79
+30        </intent>
+31        <intent>
+31-->[androidx.media2:media2-session:1.2.1] C:\Users\anand\.gradle\caches\transforms-3\1c11fcd5d741b7583794ec56efdeaa69\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:31:9-33:18
+32            <action android:name="androidx.media2.session.MediaLibraryService" />
+32-->[androidx.media2:media2-session:1.2.1] C:\Users\anand\.gradle\caches\transforms-3\1c11fcd5d741b7583794ec56efdeaa69\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:13-82
+32-->[androidx.media2:media2-session:1.2.1] C:\Users\anand\.gradle\caches\transforms-3\1c11fcd5d741b7583794ec56efdeaa69\transformed\jetified-media2-session-1.2.1\AndroidManifest.xml:32:21-79
+33        </intent>
+34    </queries>
+35
+36    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+36-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\anand\.gradle\caches\transforms-3\e255c6ce9910a673f2619b479a7d74a8\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:5-79
+36-->[com.google.android.exoplayer:exoplayer-core:2.18.7] C:\Users\anand\.gradle\caches\transforms-3\e255c6ce9910a673f2619b479a7d74a8\transformed\jetified-exoplayer-core-2.18.7\AndroidManifest.xml:24:22-76
+37
+38    <permission
+38-->[androidx.core:core:1.10.1] C:\Users\anand\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:22:5-24:47
+39        android:name="com.example.college.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+39-->[androidx.core:core:1.10.1] C:\Users\anand\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:23:9-81
+40        android:protectionLevel="signature" />
+40-->[androidx.core:core:1.10.1] C:\Users\anand\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:24:9-44
+41
+42    <uses-permission android:name="com.example.college.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+42-->[androidx.core:core:1.10.1] C:\Users\anand\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:5-97
+42-->[androidx.core:core:1.10.1] C:\Users\anand\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:26:22-94
+43
+44    <application
+45        android:name="android.app.Application"
+46        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+46-->[androidx.core:core:1.10.1] C:\Users\anand\.gradle\caches\transforms-3\c4988ff80110f75080a936fc6f044848\transformed\core-1.10.1\AndroidManifest.xml:28:18-86
+47        android:debuggable="true"
+48        android:icon="@mipmap/ic_launcher"
+49        android:label="MedDoc" >
+50        <activity
+51            android:name="com.example.college.MainActivity"
+52            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+53            android:exported="true"
+54            android:hardwareAccelerated="true"
+55            android:launchMode="singleTop"
+56            android:theme="@style/LaunchTheme"
+57            android:windowSoftInputMode="adjustResize" >
+58
+59            <!--
+60                 Specifies an Android theme to apply to this Activity as soon as
+61                 the Android process has started. This theme is visible to the user
+62                 while the Flutter UI initializes. After that, this theme continues
+63                 to determine the Window background behind the Flutter UI.
+64            -->
+65            <meta-data
+66                android:name="io.flutter.embedding.android.NormalTheme"
+67                android:resource="@style/NormalTheme" />
+68
+69            <intent-filter>
+70                <action android:name="android.intent.action.MAIN" />
+71
+72                <category android:name="android.intent.category.LAUNCHER" />
+73            </intent-filter>
+74        </activity>
+75        <!--
+76             Don't delete the meta-data below.
+77             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+78        -->
+79        <meta-data
+80            android:name="flutterEmbedding"
+81            android:value="2" />
+82
+83        <provider
+83-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+84            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+84-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+85            android:authorities="com.example.college.flutter.image_provider"
+85-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+86            android:exported="false"
+86-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+87            android:grantUriPermissions="true" >
+87-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+88            <meta-data
+88-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+89                android:name="android.support.FILE_PROVIDER_PATHS"
+89-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+90                android:resource="@xml/flutter_image_picker_file_paths" />
+90-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+91        </provider>
+92
+93        <activity
+93-->[:url_launcher_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+94            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+94-->[:url_launcher_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+95            android:exported="false"
+95-->[:url_launcher_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+96            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+96-->[:url_launcher_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+97        <!--
+98           Declares a provider which allows us to store files to share in
+99           '.../caches/share_plus' and grant the receiving action access
+100        -->
+101        <provider
+101-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-23:20
+102            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+102-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-77
+103            android:authorities="com.example.college.flutter.share_provider"
+103-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-74
+104            android:exported="false"
+104-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-37
+105            android:grantUriPermissions="true" >
+105-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-47
+106            <meta-data
+106-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+107                android:name="android.support.FILE_PROVIDER_PATHS"
+107-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+108                android:resource="@xml/flutter_share_file_paths" />
+108-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+109        </provider>
+110        <!--
+111           This manifest declared broadcast receiver allows us to use an explicit
+112           Intent when creating a PendingItent to be informed of the user's choice
+113        -->
+114        <receiver
+114-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:28:9-34:20
+115            android:name="dev.fluttercommunity.plus.share.SharePlusPendingIntent"
+115-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-82
+116            android:exported="false" >
+116-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-37
+117            <intent-filter>
+117-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-33:29
+118                <action android:name="EXTRA_CHOSEN_COMPONENT" />
+118-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:32:17-65
+118-->[:share_plus] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:32:25-62
+119            </intent-filter>
+120        </receiver>
+121
+122        <provider
+122-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:12:9-20:20
+123            android:name="com.sangcomz.fishbun.FishBunFileProvider"
+123-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:13:13-68
+124            android:authorities="com.example.college.fishbunfileprovider"
+124-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:14:13-71
+125            android:exported="false"
+125-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:15:13-37
+126            android:grantUriPermissions="true" >
+126-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:16:13-47
+127            <meta-data
+127-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:75
+128                android:name="android.support.FILE_PROVIDER_PATHS"
+128-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+129                android:resource="@xml/provider_paths" />
+129-->[:image_picker_android] C:\Users\anand\OneDrive\Documents\flutter\meddoc\Appointment_booking_College_project\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-72
+130        </provider>
+131
+132        <activity
+132-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:22:9-25:51
+133            android:name="com.sangcomz.fishbun.ui.album.AlbumActivity"
+133-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:23:13-71
+134            android:label="@string/album"
+134-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:24:13-42
+135            android:theme="@style/FishBunTheme" />
+135-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:25:13-48
+136        <activity
+136-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:26:9-28:51
+137            android:name="com.sangcomz.fishbun.ui.picker.PickerActivity"
+137-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:27:13-73
+138            android:theme="@style/FishBunTheme" />
+138-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:28:13-48
+139        <activity
+139-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:29:9-31:54
+140            android:name="com.sangcomz.fishbun.ui.detail.DetailActivity"
+140-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:30:13-73
+141            android:theme="@style/DetailViewTheme" />
+141-->[com.sangcomz:FishBun:0.11.2] C:\Users\anand\.gradle\caches\transforms-3\1f2ea87b708789c62e61755b11839fb6\transformed\jetified-FishBun-0.11.2\AndroidManifest.xml:31:13-51
+142
+143        <uses-library
+143-->[androidx.window:window:1.0.0-beta04] C:\Users\anand\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+144            android:name="androidx.window.extensions"
+144-->[androidx.window:window:1.0.0-beta04] C:\Users\anand\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+145            android:required="false" />
+145-->[androidx.window:window:1.0.0-beta04] C:\Users\anand\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+146        <uses-library
+146-->[androidx.window:window:1.0.0-beta04] C:\Users\anand\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+147            android:name="androidx.window.sidecar"
+147-->[androidx.window:window:1.0.0-beta04] C:\Users\anand\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+148            android:required="false" />
+148-->[androidx.window:window:1.0.0-beta04] C:\Users\anand\.gradle\caches\transforms-3\25cee5f028ac2a6b79fd6278ff5b59e2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+149
+150        <provider
+150-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:24:9-32:20
+151            android:name="androidx.startup.InitializationProvider"
+151-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:25:13-67
+152            android:authorities="com.example.college.androidx-startup"
+152-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:26:13-68
+153            android:exported="false" >
+153-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:27:13-37
+154            <meta-data
+154-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:29:13-31:52
+155                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+155-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:30:17-85
+156                android:value="androidx.startup" />
+156-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:31:17-49
+157        </provider>
+158
+159        <receiver
+159-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:34:9-52:20
+160            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+160-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:35:13-76
+161            android:directBootAware="false"
+161-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:36:13-44
+162            android:enabled="true"
+162-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:37:13-35
+163            android:exported="true"
+163-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:38:13-36
+164            android:permission="android.permission.DUMP" >
+164-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:39:13-57
+165            <intent-filter>
+165-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:40:13-42:29
+166                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:17-91
+166-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:41:25-88
+167            </intent-filter>
+168            <intent-filter>
+168-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:43:13-45:29
+169                <action android:name="androidx.profileinstaller.action.SKIP_FILE" />
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:17-85
+169-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:44:25-82
+170            </intent-filter>
+171            <intent-filter>
+171-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:46:13-48:29
+172                <action android:name="androidx.profileinstaller.action.SAVE_PROFILE" />
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:17-88
+172-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:47:25-85
+173            </intent-filter>
+174            <intent-filter>
+174-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:49:13-51:29
+175                <action android:name="androidx.profileinstaller.action.BENCHMARK_OPERATION" />
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:17-95
+175-->[androidx.profileinstaller:profileinstaller:1.3.0] C:\Users\anand\.gradle\caches\transforms-3\635b1770925726da461e843c0a3c6641\transformed\jetified-profileinstaller-1.3.0\AndroidManifest.xml:50:25-92
+176            </intent-filter>
+177        </receiver>
+178    </application>
+179
+180</manifest>
